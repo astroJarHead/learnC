@@ -47,6 +47,11 @@ origin
 origin	https://github.com/astroJarHead/learnC (fetch)
 origin	https://github.com/astroJarHead/learnC (push)
 
+[bob.zavala@medea learnC]: git branch -a
+* master	  	       <-- My local one in green
+  remotes/origin/main	       <-- My remote one on github.com in red
+
+
 OK, THIS NOW IS SET TO FETCH AND PUSH TO MY ONLINE REPOSITORY
 
 DO INITIAL FETCH
@@ -76,4 +81,15 @@ nothing to commit, working directory clean
 #
 no changes added to commit (use "git add" and/or "git commit -a")
 
+NOW I HAVE EDITED AND WILL SAVE THID LOG FILE AND FOLLWOING:
+"Git tutorial for Beginners: A Command Line Tutorial" YouTube video by
+     Corey Schafer
 
+git diff
+git status
+git add -A
+git status
+git commit -v -m "Edit log following Corey Schafer video."
+# DON'T FORGET A PULL TO BE SAFE
+git pull origin master
+git push  origin master
