@@ -110,4 +110,11 @@ Auto-merging README.md
 CONFLICT (add/add): Merge conflict in README.md
 Automatic merge failed; fix conflicts and then commit the result.
 
+I DELETED TE README.md FROM THE github.com/astroJarHead/learnC AND TRIED AGAIN
 
+[bob.zavala@medea learnC]: git pull origin main
+From https://github.com/astroJarHead/learnC
+ * branch            main       -> FETCH_HEAD
+Already up-to-date.
+
+ 
