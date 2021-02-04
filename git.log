@@ -1,0 +1,11 @@
+# Here is what  I did to get this local repository made
+git init
+git add -v -A
+git commit -v -m "Initial commit to learnC repository."
+[bob.zavala@medea learnC]: git log
+commit 4b83e50b928040556d30f610f3e57b8d2b438336
+Author: Bob Zavala <robert.t.zavala.civ@mail.mil>
+Date:   Wed Feb 3 22:00:38 2021 -0700
+
+    Initial commit to learnC repository.
+
