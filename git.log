@@ -9,3 +9,7 @@ Date:   Wed Feb 3 22:00:38 2021 -0700
 
     Initial commit to learnC repository.
 
+git add -v git.log
+git commit -v -m "Added git.log"
+
+
