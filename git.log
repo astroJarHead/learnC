@@ -49,4 +49,31 @@ origin	https://github.com/astroJarHead/learnC (push)
 
 OK, THIS NOW IS SET TO FETCH AND PUSH TO MY ONLINE REPOSITORY
 
+DO INITIAL FETCH
+
+[bob.zavala@medea learnC]: git fetch -v origin
+POST git-upload-pack (404 bytes)
+warning: no common commits
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/astroJarHead/learnC
+ * [new branch]      main       -> origin/main
+
+NOTE I CAN SEE STATUS FOR MY LOCAL MASTER AND ORIGIN MASTER 
+
+[bob.zavala@medea learnC]: git status origin
+# On branch master
+nothing to commit, working directory clean
+[bob.zavala@medea learnC]: git status 
+# On branch master
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   git.log
+#
+no changes added to commit (use "git add" and/or "git commit -a")
+
 
