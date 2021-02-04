@@ -92,4 +92,22 @@ git status
 git commit -v -m "Edit log following Corey Schafer video."
 # DON'T FORGET A PULL TO BE SAFE
 git pull origin master
-git push  origin master
+
+ABOVE COMMAND FAILS:
+
+fatal: Couldn't find remote ref master
+Unexpected end of command stream
+
+FAILED BECAUSE THE "remote ref master" NEEDS TO BE A VALID REMOTE REFERENCE 
+SHOWN IN git branch -a
+
+FOLLOWING DOES WORK BUT PRODUCES ERROR BECAUSE OF LESS TAHN 50% MATCH
+
+[bob.zavala@medea learnC]: git pull origin main
+From https://github.com/astroJarHead/learnC
+ * branch            main       -> FETCH_HEAD
+Auto-merging README.md
+CONFLICT (add/add): Merge conflict in README.md
+Automatic merge failed; fix conflicts and then commit the result.
+
+
