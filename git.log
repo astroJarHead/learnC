@@ -32,3 +32,21 @@ No changes but check for a pull:
 From https://github.com/astroJarHead/learnC
  * branch            HEAD       -> FETCH_HEAD
 Already up-to-date.
+
+I THINK I MESSED UP AND MADE THE REMOTE  AND LOCAL MASTER CONNECTIONS 
+TOO COMPLEX. DELETE THEM, START AGAIN FOLLOWING INSTRUCTIONS FROM A 
+NEW GITHUB FOUNDATION VIDEO.
+
+From my learnC directory on the laptop:
+
+[bob.zavala@medea learnC]: git remote add origin https://github.com/astroJarHead/learnC
+
+[bob.zavala@medea learnC]: git remote
+origin
+[bob.zavala@medea learnC]: git remote -v
+origin	https://github.com/astroJarHead/learnC (fetch)
+origin	https://github.com/astroJarHead/learnC (push)
+
+OK, THIS NOW IS SET TO FETCH AND PUSH TO MY ONLINE REPOSITORY
+
+
