@@ -12,4 +12,23 @@ Date:   Wed Feb 3 22:00:38 2021 -0700
 git add -v git.log
 git commit -v -m "Added git.log"
 
+# CLONE REMOTE
 
+git clone https://github.com/astroJarHead/learnC ../remote_learnC
+Cloning into '../remote_learnC'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+
+
+[bob.zavala@medea remote_learnC]: git remote -v
+origin	https://github.com/astroJarHead/learnC (fetch)
+origin	https://github.com/astroJarHead/learnC (push)
+
+No changes but check for a pull:
+
+[bob.zavala@medea remote_learnC]: git pull https://github.com/astroJarHead/learnC 
+From https://github.com/astroJarHead/learnC
+ * branch            HEAD       -> FETCH_HEAD
+Already up-to-date.
