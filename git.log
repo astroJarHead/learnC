@@ -117,4 +117,30 @@ From https://github.com/astroJarHead/learnC
  * branch            main       -> FETCH_HEAD
 Already up-to-date.
 
- 
+NOW SWITCH TO origin/main BRANCH
+
+git checkout main
+
+VERIFY I HAVE THE CORRECT BRANCH SELECTED USING git branch
+
+git branch -a 
+
+MERGE MY LOCAL CODE AND FILES WITH main
+
+git merge master
+
+THE ABOVE MERGES FILES IN LOCAL master BRANCH WITH COPY OF REMOTE main BRANCH.
+
+NOW THE PUSH TO MY github.com REPOSITORY SHOULD WORK.
+
+[bob.zavala@medea learnC]: git push origin main
+Username for 'https://github.com': astroJarHead
+Password for 'https://astroJarHead@github.com': 
+Counting objects: 61, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (56/56), done.
+Writing objects: 100% (58/58), 17.70 KiB | 0 bytes/s, done.
+Total 58 (delta 17), reused 0 (delta 0)
+remote: Resolving deltas: 100% (17/17), done.
+To https://github.com/astroJarHead/learnC
+   b0bf756..53d7a18  main -> main
